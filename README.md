@@ -17,5 +17,12 @@ pnpm i
 実行
 
 ```sh
-pnpm tsx --env-file=.env ./src/main.ts
+# openai
+pnpm openai # 日本語でも質が高い
+# natural
+pnpm natural # あんまり
+# jaccard
+pnpm jaccard # あんまり
+# string-similarity
+pnpm string-similarity # あんまり
 ```

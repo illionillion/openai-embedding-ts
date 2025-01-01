@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "openai": "pnpm tsx --env-file=.env ./src/openai.ts",
+    "natural": "pnpm tsx ./src/natural.ts",
+    "jaccard": "pnpm tsx ./src/jaccard.ts",
+    "string-similarity": "pnpm tsx ./src/string-similarity.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/string-similarity": "^4.0.2",
+    "natural": "^8.0.1",
     "openai": "^4.77.0",
+    "string-similarity": "^4.0.4",
     "tsx": "^4.19.2"
   }
 }
